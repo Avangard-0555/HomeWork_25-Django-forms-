@@ -7,7 +7,7 @@ urlpatterns = [
     path('logout/', logout_view, name='logout'),
 ]
 
-Добавьте также ссылки в главный файл URL проекта shop/urls.py:
+#Добавить  также ссылки в главный файл URL проекта shop/urls.py:
 
 from django.urls import path, include
 
